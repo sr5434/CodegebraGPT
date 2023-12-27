@@ -1,4 +1,4 @@
-# STEMLLaVA
+# CodegebraGPT
 Finetuning multimodal LLMs on STEM datasets.
 ## Planned Procedure
  - [x] Compile and preprocess multiple datasets
@@ -20,3 +20,5 @@ There are 100k samples which I will be using to train this model. The total comb
  - [ArXiv Computer Science and ML](https://huggingface.co/datasets/ArtifactAI/arxiv-cs-ml-instruct-tune-50k)
  - [ScienceQA](https://huggingface.co/datasets/cnut1648/ScienceQA-LLAVA)
 The dataset can be found [here](https://huggingface.co/datasets/sr5434/CodegebraGPT_data). During training, I used the ```100k-text``` subset.
+## Name
+This LLM is named after [Codegebra](https://github.com/sr5434/codegebra), which is a program I made to solve equations, perform Fourier transforms, etc. It is intended to be Codegebra's successor, with a more natural interface and expanded abilities.
